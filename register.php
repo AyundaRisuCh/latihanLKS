@@ -4,9 +4,9 @@ ini_set('display_errors', 1);
 
 // Koneksi database
 $db = new mysqli(
-    'database-1.cb24ouuuwt7w.ap-southeast-2.rds.amazonaws.com', // Ganti dengan endpoint RDS
+    'belajar-db.cb24ouuuwt7w.ap-southeast-2.rds.amazonaws.com', // Ganti dengan endpoint RDS
     'root',                              // Username RDS
-    'admin123',                      // Password RDS
+    'admin123#',                      // Password RDS
     'sigap_db'                       // Nama database
 );
 
