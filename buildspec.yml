@@ -6,6 +6,7 @@ phases:
       php: 8.2
     commands:
       - echo "📦 Installing dependencies..."
+      - sudo apt install php-cli php-json php-mbstring php-xml php-pcov php-xdebug
 
   pre_build:
     commands:
