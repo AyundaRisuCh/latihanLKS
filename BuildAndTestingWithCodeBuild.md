@@ -1,4 +1,5 @@
-#### 3. Buat file buildspec.yml
+
+#### 3. **Buat file buildspec.yml**
 a. Buka project pada Visual Studio Code:
 
 b. Buat file baru dengan nama buildspec.yml di root folder proyek:
@@ -12,7 +13,7 @@ phases:
       php: 8.2
     commands:
       - echo "📦 Installing dependencies..."
-
+      - sudo apt install php-cli php-json php-mbstring php-xml php-pcov php-xdebug
   pre_build:
     commands:
       - echo "🔐 Setting up SSH private key"
