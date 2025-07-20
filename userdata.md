@@ -1,5 +1,10 @@
 #!/bin/bash
 sudo yum -y update
+sudo yum install httpd -y
+sudo yum install php php-mysqli php-unzip php-xml php-common
+sudo systemctl enable httpd
+sudo systemctl start httpd
+sudo yum install git unzip composer
 sudo yum -y install ruby
 sudo yum -y install wget
 cd /home/ec2-user
